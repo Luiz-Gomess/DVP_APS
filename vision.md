@@ -129,6 +129,13 @@ Segue abaixo a lista de stakeholders.
 
 Segue tabela com os usuários e atores do sistema:
 
+| **Usuário** | **Descrição** | **Responsabilidades** | **Stakeholders** |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| Clientes                 | Pessoas que compram produtos ou serviços com garantia e utilizam o sistema para gerenciar esses processos  | Registrar os produtos e serviços adquiridos, e agendamentos realizados no sistema. Acompanhar o prazo de realização dos serviços e receber notificações sobre o resultado.| Equipe de Desenvolvimento, Product Owner, Departamento de Marketing e Mídias Digitais |
+| Perito | Profissional responsável por atender, prover serviços e fornecer suporte aos clientes | Atender às solicitações dos clientes relacionadas aos produtos e serviços registrados no sistema, fornecer suporte aos clientes e gerenciar os atendimentos agendados. | Clientes, Equipe de Desenvolvimento, Product Owner. |
+| Administrador do Sistema | Profissional responsável por gerenciar e manter o sistema. | Gerenciar os usuários do sistema, realizar backup dos dados, atualizar o sistema e garantir o seu funcionamento adequado. | Equipe de Desenvolvimento, Product Owner. |
+
+
 # Descrição do ambiente de uso
 
 ## Ambiente de uso
@@ -162,6 +169,9 @@ Com acesso multiplataforma (dispositivos móveis e navegadores web), o PeriMec f
 - Maior transparência no mercado de veículos reparados.
 - Ferramentas de organização e controle para peritos e administradores.
 
+Uma estrutura operacional do produto é apresentada na Figura 1.
+
+![Arquitetura ambiental do sistema Perimec](./assets/images/architecture.jpg)
 ---
 
 # Custo e Venda
