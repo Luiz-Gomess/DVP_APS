@@ -162,6 +162,8 @@ A seguir, é apresentada uma tabela que descreve as necessidades dos clientes co
 ---
 # Visão Geral do Produto
 
+# Visão Geral
+
 O **PeriMec 1.0** é um sistema integrado para o setor automotivo, oferecendo soluções para **agendamento de perícias mecânicas**, **gestão de clientes** e **comércio de veículos usados**. Ele centraliza operações em uma única plataforma, promovendo maior eficiência, transparência e confiabilidade para consumidores e profissionais.
 
 Com acesso multiplataforma (dispositivos móveis e navegadores web), o PeriMec facilita o gerenciamento de processos de inspeção e vendas, proporcionando:
@@ -172,7 +174,6 @@ Com acesso multiplataforma (dispositivos móveis e navegadores web), o PeriMec f
 Uma estrutura operacional do produto é apresentada na Figura 1.
 
 ![Arquitetura ambiental do sistema Perimec](./assets/images/architecture.png)
-**Figura 1** - Arquitetura ambiental do sistema Perimec
 ---
 
 # Custo e Venda
