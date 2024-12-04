@@ -120,7 +120,9 @@ Segue abaixo a lista de stakeholders.
 
 | **Stakeholders** | **Descrição** | **Papel** | 
 |------------------|-------------------------------------------------------------------------------------------------------------|------------------|
-| Clientes          | Pessoas que compram produtos ou serviços com garantia e utilizam o sistema para gerenciar esses processos | Usuário do sistema |
+| Clientes | Pessoas que solicitaram o desenvolvimento do sistema e o utilizarão para gerenciar funcionários, produtos e serviços | Usuário do sistema |
+| Consumidores | Pessoas que compram produtos e serviços com garantia e utilizam o sistema para gerenciar esses processos | Usuário do sistema |
+| Perito | Profissionais responsáveis por realizar serviços com garantia e venda de produtos e utilizam o sistema para gerenciar esses processos | Usuário do sistema |
 |Equipe de Desenvolvimento |Profissionais responsáveis por desenvolver o sistema|Desenvolvedores|
 |Product Owner |Profissional responsável por traduzir as ideias e interesses dos usuários para a Equipe de Desenvolvimento | Liderar o desenvolvimento do Produto|
 |Departamento de Marketing e Mídias Digitais | Profissionais responsáveis por fornecer informações sobre os produtos e serviços e captar novos clientes |Fornecer informações e captar clientes|
@@ -131,7 +133,8 @@ Segue tabela com os usuários e atores do sistema:
 
 | **Usuário** | **Descrição** | **Responsabilidades** | **Stakeholders** |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| Clientes                 | Pessoas que compram produtos ou serviços com garantia e utilizam o sistema para gerenciar esses processos  | Registrar os produtos e serviços adquiridos, e agendamentos realizados no sistema. Acompanhar o prazo de realização dos serviços e receber notificações sobre o resultado.| Equipe de Desenvolvimento, Product Owner, Departamento de Marketing e Mídias Digitais |
+| Clientes | Pessoas que solicitaram o desenvolvimento do sistema e o utilizarão para gerenciar funcionários, produtos e serviços | Gerenciar os peritos, produtos, serviços e agendamentos realizados no sistema. Acompanhar o prazo de realização dos serviços, o fluxo operacional e receber notificações sobre o resultado.| Equipe de Desenvolvimento, Product Owner, Consumidores, Peritos, Departamento de Marketing e Mídias Digitais |
+| Consumidores | Pessoas que compram produtos e serviços com garantia e utilizam o sistema para gerenciar esses processos  | Registrar os produtos e serviços adquiridos, e agendamentos realizados no sistema. Acompanhar o prazo de realização dos serviços e receber notificações sobre o resultado.| Equipe de Desenvolvimento, Product Owner, Departamento de Marketing e Mídias Digitais |
 | Perito | Profissional responsável por atender, prover serviços e fornecer suporte aos clientes | Atender às solicitações dos clientes relacionadas aos produtos e serviços registrados no sistema, fornecer suporte aos clientes e gerenciar os atendimentos agendados. | Clientes, Equipe de Desenvolvimento, Product Owner. |
 | Administrador do Sistema | Profissional responsável por gerenciar e manter o sistema. | Gerenciar os usuários do sistema, realizar backup dos dados, atualizar o sistema e garantir o seu funcionamento adequado. | Equipe de Desenvolvimento, Product Owner. |
 
