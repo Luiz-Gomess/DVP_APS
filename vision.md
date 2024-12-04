@@ -19,9 +19,7 @@
 
 - [Introdução](#introdução)
   - [Propósito](#propósito)
-  - [Definições e abreviações](#definições-e-abreviações)
-    - [Abreviações](#abreviações)
-    - [Definições](#definições)
+  - [Definições](#definições)
   - [Escopo do produto](#escopo-do-produto)
 - [Posicionamento](#posicionamento)
   - [Oportunidade de negócios](#oportunidade-de-negócios)
@@ -48,23 +46,15 @@ O PeriMec é um sistema que possibilita o agendamento de perícias mecânicas, g
 
 O propósito do sistema do PeriMec é simplificar e automatizar os processos de agendamento de perícias mecânicas e gestão de vendas de carros usados, proporcionando melhor experiência para os clientes e aumento na transparência e confiabilidade das operações.
 
-## Definições e abreviações
-
-### Abreviações
-
-| Termo | Definição                                    |
-| :---: | -------------------------------------------- |
-| PeriMec  | Sistema de Controle de Vendas e Agendamentos |
-
-
 ### Definições
 
 |    Termo    | Definição                                                                                                                       |
 | :---------: | ------------------------------------------------------------------------------------------------------------------------------- |
-|   Clientes   |  São as pessoas que financiam o sistema da PeriMec                                                 
-| Consumidor  | É uma pessoa física que compra um produto ou agenda uma perícia..                                                               
-|       Perito     | É a pessoa que realiza as perícias mecânicas e venda de carros.                                                          
-|     Perícia    | É o principal serviço oferecido pelo perito e agendado pelo consumidor. 
+| PeriMec  | Sistema de Controle de Vendas e Agendamentos |
+|   Clientes   |  São as pessoas que financiam o sistema da PeriMec.  |                                               
+| Consumidor  | É uma pessoa física que compra um produto ou agenda uma perícia.|                                                               
+|       Perito     | É a pessoa que realiza as perícias mecânicas e venda de carros. |                                                          
+|     Perícia    | É o principal serviço oferecido pelo perito e agendado pelo consumidor.| 
 
 ## Escopo do produto
 
@@ -131,7 +121,71 @@ Segue abaixo a lista de stakeholders.
 | **Stakeholders** | **Descrição** | **Papel** | 
 |------------------|-------------------------------------------------------------------------------------------------------------|------------------|
 | Clientes          | Pessoas que compram produtos ou serviços com garantia e utilizam o sistema para gerenciar esses processos | Usuário do sistema |
-|Equipe de Desenvolvimento |Profissionais responsáveis por desenvolver o sistema|Desenvolvedores
-|Product Owner |Profissional responsável por traduzir as ideias e interesses dos usuários para a Equipe de Desenvolvimento | Liderar o desenvolvimento do Produto
-|Departamento de Marketing e Mídias Digitais | Profissionais responsáveis por fornecer informações sobre os produtos e serviços e captar novos clientes |Fornecer informações e captar clientes
+|Equipe de Desenvolvimento |Profissionais responsáveis por desenvolver o sistema|Desenvolvedores|
+|Product Owner |Profissional responsável por traduzir as ideias e interesses dos usuários para a Equipe de Desenvolvimento | Liderar o desenvolvimento do Produto|
+|Departamento de Marketing e Mídias Digitais | Profissionais responsáveis por fornecer informações sobre os produtos e serviços e captar novos clientes |Fornecer informações e captar clientes|
+
+## Usuários e atores
+
+Segue tabela com os usuários e atores do sistema:
+
+# Descrição do ambiente de uso
+
+## Ambiente de uso
+
+A seguir, são descritos alguns ambientes em que o sistema pode ser utilizado:
+
+1. **Ambiente do Usuário**: Neste ambiente, os usuários acessam o sistema para agendar perícias ou realizar transações relacionadas ao comércio de veículos.Os usuários podem acessar o sistema através de dispositivos móveis, como smartphones e tablets, ou através de um navegador web em seus computadores. O navegador web poderá ser o Google Chrome, Mozilla Firefox ou Microsoft Edge com acesso através do endereço web <https://www.perimec.com.br>. O sistema web será projetado responsivamente, de forma a possibilitar o acesso multiplataforma. O ambiente do cliente é acessado através da internet e requer um login e senha de acesso para agendamento de perícias e compra de produtos.
+2. **Ambiente Administrativo**: Neste ambiente, o sistema é utilizado pelos administradores do sistema para gerenciar e manter o sistema. Os administradores podem acessar o sistema através de um navegador web em um computador, e possuem acesso a recursos de gerenciamento, como gerenciamento de usuários, serviços, agendamentos, backup dos dados, e atualização do sistema.
+3. **Ambiente de Teste**: Neste ambiente, o sistema é utilizado para testar novas funcionalidades e correções de bugs antes de serem disponibilizadas para os usuários finais. O ambiente de teste é acessado apenas através de um navegador web em um computador, e requer um login e senha de acesso específicos, além de uma base de dados específica (não afetando o ambiente de produção) para o ambiente de teste.
+
+## Necessidades principais quanto ao ambiente
+
+A seguir, é apresentada uma tabela que descreve as necessidades dos clientes com relação à qualidade, desempenho, segurança, usabilidade e confidencialidade do sistema Perimec, juntamente com sua prioridade, interesse, solução atual e soluções propostas:
+| Necessidade                                                                                                                                              | Prioridade | Interesse                                                                                                                                                | Solução Atual                                                                                                                 | Soluções Propostas                                                                                                                                                                                                                                                       |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Qualidade:** O sistema deverá apresentar um alto nível de confiabilidade, operando de forma estável e livre de falhas.                                                  | Alta       | Os clientes esperam que o sistema funcione corretamente e não apresente problemas que possam prejudicar o controle de suas garantias.                    | Testes manuais realizados pela equipe de desenvolvimento.                                                                     | Implementar testes automatizados e processos de garantia de qualidade para identificar e corrigir erros e bugs.                                                                                                                                                          |
+| **Desempenho:** O sistema deve ter um bom desempenho, com tempo de resposta rápido e sem atrasos significativos.                                         | Alta       | Os clientes esperam que o sistema responda rapidamente às suas solicitações e não apresente atrasos.                                                     | Servidor dedicado para hospedagem do sistema e monitoramento constante do desempenho.                                         | Melhorar a arquitetura do sistema para garantir melhor desempenho e escalabilidade, bem como otimizar consultas de banco de dados e uso de recursos do sistema.                                                                                                          |
+| **Escalabilidade:** O sistema deve ter capacidade para suportar o crescimento do número de clientes e garantias.                                         | Alta       | Os clientes esperam que o sistema continue funcionando de forma confiável e sem atrasos, mesmo com um grande número de usuários e garantias registradas. | Arquitetura escalável, com distribuição de carga e uso de servidores em nuvem.                                                | Implementar arquitetura em nuvem e balanceamento de carga para garantir a escalabilidade do sistema.                                                                                                                                                                     |
+| **Segurança:** O sistema deve ser seguro, protegido contra acesso não autorizado, invasões e roubo de dados.                                             | Alta       | Os clientes esperam que suas informações estejam seguras e protegidas contra invasões e acesso não autorizado.                                           | Autenticação de usuários com login e senha, criptografia de dados sensíveis e acesso restrito somente a usuários autorizados. | Implementar medidas adicionais de segurança, como autenticação de dois fatores, certificados SSL e criptografia avançada.                                                                                                                                                |
+| **Usabilidade:** O sistema deve ser fácil de usar e entender, com uma interface intuitiva e amigável ao usuário.                                         | Moderada   | Os clientes esperam que o sistema seja fácil de usar e entender, sem a necessidade de treinamento especializado.                                         | Interface de usuário simples e intuitiva.                                                                                     | Realizar testes de usabilidade com usuários reais para identificar áreas de melhoria e implementar melhorias na interface do usuário.                                                                                                                                    |
+| **Tempo de resposta:** O sistema deve ter um tempo de resposta rápido para que os clientes possam acessar e controlar suas garantias de forma eficiente. | Moderada   | Os clientes esperam que o sistema responda às suas solicitações rapidamente para que possam gerenciar suas garantias de forma mais eficiente.            | Monitoramento constante do tempo de resposta do sistema.                                                                      | Realizar otimizações de performance, como o uso de cache, e garantir que o sistema esteja sempre atualizado para obter um tempo de resposta rápido.                                                                                                                      |
+| **Confidencialidade:** O sistema deve proteger a privacidade e confidencialidade das informações dos clientes.                                           | Alta       | Os clientes esperam que suas informações sejam mantidas em sigilo e protegidas contra acesso não autorizado.                                             | Controles de acesso restrito, criptografia de dados sensíveis e monitoramento constante das atividades do usuário.            | Realizar auditorias de segurança e implementar medidas adicionais de privacidade e proteção de dados, como política de privacidade clara e concisa, consentimento explícito do usuário para coleta e uso de dados, e implementação de protocolos de segurança avançados. |
+
+---
+
+## Características e funcionalidades de alto nível
+
+Esta seção define e descreve as características do Perimec. Trata-se dos
+requisitos de alto nível do sistema que são necessários para propiciar benefícios aos usuários.
+
+1. O sistema deve permitir o cadastro de peritos, consumidores e demais produtos.
+2. O sistema deve permitir o agendamento de perícias por parte de um consumidor
+3. O sistema deve permitir ao usuário perito que visualize todas as perícias agendadas com o mesmo, sendo possível filtrá-las por ordem de marcação.
+4. O sistema deve permitir que o consumidor cadastre um automóvel para vender. Esse cadastro só pode ser concluído após haver contato com um vendedor.
+5. O sistema deve ter uma interface de usuário amigável e de fácil utilização, para que os clientes possam utilizar as funcionalidades sem dificuldade.
+6. O sistema deve ter um desempenho satisfatório, com tempos de resposta rápidos e sem interrupções ou falhas.
+7. O sistema deve ser documentado e ter seu código-fonte disponível para auditoria e manutenção futura.
+
+
+## Restrições
+
+Algumas possíveis restrições que podem ser aplicadas ao sistema são:
+
+1. **Restrições de software:** O sistema pode ter dependências específicas relacionadas a ferramentas de desenvolvimento, bibliotecas e bancos de dados. Essas limitações afetam o processo de desenvolvimento e a integração com outros sistemas.
+
+2. **Restrições de hardware:** O sistema não tem exigências específicas em relação ao hardware, visto que será executado na web.
+
+3. **Restrições de segurança:** O sistema precisa atender a requisitos de segurança, incluindo autenticação, autorização, criptografia, auditoria, backup e recuperação de desastres. Essas restrições podem afetar tanto o desenvolvimento quanto a operação do sistema.
+
+4. **Restrições de privacidade:** O sistema deve atender aos requisitos de segurança, privacidade e proteção de dados do usuário, conforme a Lei Geral de Proteção de Dados (LGPD).
+
+5. **Restrições de usabilidade:** O sistema deve ser intuitivo, fácil de usar e acessível para usuários com deficiências visuais e motoras.
+
+6. **Restrição de orçamento:** O projeto deve ser concluído dentro de um determinado orçamento e não pode excedê-lo.
+
+7. **Restrições de desempenho**: O sistema deve atender aos requisitos de desempenho, como velocidade, escalabilidade e disponibilidade.
+
+
+
 
