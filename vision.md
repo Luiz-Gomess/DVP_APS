@@ -171,7 +171,8 @@ Com acesso multiplataforma (dispositivos móveis e navegadores web), o PeriMec f
 
 Uma estrutura operacional do produto é apresentada na Figura 1.
 
-![Arquitetura ambiental do sistema Perimec](./assets/images/architecture.jpg)
+![Arquitetura ambiental do sistema Perimec](assets/images/architecture.jpg)
+**Figura 1** - Arquitetura ambiental do sistema Perimec
 ---
 
 # Custo e Venda
