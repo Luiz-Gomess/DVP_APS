@@ -153,6 +153,67 @@ A seguir, é apresentada uma tabela que descreve as necessidades dos clientes co
 | **Confidencialidade:** O sistema deve proteger a privacidade e confidencialidade das informações dos clientes.                                           | Alta       | Os clientes esperam que suas informações sejam mantidas em sigilo e protegidas contra acesso não autorizado.                                             | Controles de acesso restrito, criptografia de dados sensíveis e monitoramento constante das atividades do usuário.            | Realizar auditorias de segurança e implementar medidas adicionais de privacidade e proteção de dados, como política de privacidade clara e concisa, consentimento explícito do usuário para coleta e uso de dados, e implementação de protocolos de segurança avançados. |
 
 ---
+# Visão Geral do Produto
+
+O **PeriMec 1.0** é um sistema integrado para o setor automotivo, oferecendo soluções para **agendamento de perícias mecânicas**, **gestão de clientes** e **comércio de veículos usados**. Ele centraliza operações em uma única plataforma, promovendo maior eficiência, transparência e confiabilidade para consumidores e profissionais.
+
+Com acesso multiplataforma (dispositivos móveis e navegadores web), o PeriMec facilita o gerenciamento de processos de inspeção e vendas, proporcionando:
+- Agilidade no agendamento de perícias.
+- Maior transparência no mercado de veículos reparados.
+- Ferramentas de organização e controle para peritos e administradores.
+
+---
+
+# Custo e Venda
+
+## Custo do Sistema
+O desenvolvimento e a operação do PeriMec envolvem:
+- **Desenvolvimento inicial**: R$ 150.000
+- **Infraestrutura e suporte anual**: R$ 30.000
+- **Marketing inicial**: R$ 20.000
+
+## Modelo de Venda
+O PeriMec adota um modelo de assinatura, com os seguintes planos:
+
+1. **Plano Básico** (Gratuito ou baixo custo):
+   - Funcionalidades essenciais, como agendamento e consulta ao catálogo.
+   - Publicidade inclusa.
+
+2. **Plano Profissional** (R$ 49,90/mês por usuário ativo):
+   - Recursos avançados, como relatórios detalhados e gerenciamento completo de vendas.
+   - Suporte técnico prioritário.
+
+3. **Plano Empresarial** (R$ 499,90/mês por grupo de usuários):
+   - Funcionalidades personalizadas para empresas com múltiplas unidades.
+   - Relatórios analíticos e ferramentas administrativas avançadas.
+
+---
+
+# Licenciamento e Instalação
+
+## Licenciamento
+O PeriMec será disponibilizado como **SaaS (Software as a Service)**, garantindo acesso via internet com assinatura. Detalhes:
+- **Licença por assinatura**: Planos mensais ou anuais.
+- **Período experimental**: Até 30 dias gratuitos.
+- **Contrato de uso**: Inclui conformidade com a LGPD e termos de uso.
+
+## Instalação
+O PeriMec é um sistema web que não requer instalação local. Os requisitos incluem:
+1. **Dispositivos compatíveis**:
+   - Navegadores modernos (Chrome, Firefox, Edge) em computadores Windows, macOS ou Linux.
+   - Smartphones ou tablets com Android ou iOS.
+2. **Acesso à internet**.
+3. **Cadastro inicial** via site ou aplicativo.
+
+## Para Empresas
+- **Treinamento inicial**: Capacitação de equipes para o uso eficiente do sistema.
+- **Personalização**: Ajustes conforme necessidades específicas.
+- **Suporte técnico dedicado**: Atendimento prioritário com SLA definido.
+
+---
+
+O PeriMec é uma solução prática e confiável que atende às necessidades do mercado automotivo, promovendo eficiência e confiança no setor de veículos reparados.
+
 
 ## Características e funcionalidades de alto nível
 
