@@ -247,19 +247,17 @@ requisitos de alto nível do sistema que são necessários para propiciar benef�
 
 Algumas possíveis restrições que podem ser aplicadas ao sistema são:
 
-1. **Restrições de software:** O sistema pode ter dependências específicas relacionadas a ferramentas de desenvolvimento, bibliotecas e bancos de dados. Essas limitações afetam o processo de desenvolvimento e a integração com outros sistemas.
+1. **Restrições de hardware:** O sistema não tem exigências específicas em relação ao hardware, visto que será executado na web.
 
-2. **Restrições de hardware:** O sistema não tem exigências específicas em relação ao hardware, visto que será executado na web.
+2. **Restrições de segurança:** O sistema precisa atender a requisitos de segurança, incluindo autenticação, autorização, criptografia, auditoria, backup e recuperação de desastres. Essas restrições podem afetar tanto o desenvolvimento quanto a operação do sistema.
 
-3. **Restrições de segurança:** O sistema precisa atender a requisitos de segurança, incluindo autenticação, autorização, criptografia, auditoria, backup e recuperação de desastres. Essas restrições podem afetar tanto o desenvolvimento quanto a operação do sistema.
+3. **Restrições de privacidade:** O sistema deve atender aos requisitos de segurança, privacidade e proteção de dados do usuário, conforme a Lei Geral de Proteção de Dados (LGPD).
 
-4. **Restrições de privacidade:** O sistema deve atender aos requisitos de segurança, privacidade e proteção de dados do usuário, conforme a Lei Geral de Proteção de Dados (LGPD).
+4. **Restrições de usabilidade:** O sistema deve ser intuitivo, fácil de usar e acessível para usuários com deficiências visuais e motoras.
 
-5. **Restrições de usabilidade:** O sistema deve ser intuitivo, fácil de usar e acessível para usuários com deficiências visuais e motoras.
+5. **Restrição de orçamento:** O projeto deve ser concluído dentro de um determinado orçamento e não pode excedê-lo.
 
-6. **Restrição de orçamento:** O projeto deve ser concluído dentro de um determinado orçamento e não pode excedê-lo.
-
-7. **Restrições de desempenho**: O sistema deve atender aos requisitos de desempenho, como velocidade, escalabilidade e disponibilidade.
+6. **Restrições de desempenho**: O sistema deve atender aos requisitos de desempenho, como velocidade, escalabilidade e disponibilidade.
 
 
 
