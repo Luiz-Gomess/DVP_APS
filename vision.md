@@ -121,7 +121,6 @@ Segue abaixo a lista de stakeholders.
 | **Stakeholders** | **Descrição** | **Papel** | 
 |------------------|-------------------------------------------------------------------------------------------------------------|------------------|
 | Clientes | Pessoas que solicitaram o desenvolvimento do sistema e o utilizarão para gerenciar funcionários, produtos e serviços | Usuário do sistema |
-| Consumidores | Pessoas que compram produtos e serviços com garantia e utilizam o sistema para gerenciar esses processos | Usuário do sistema |
 | Perito | Profissionais responsáveis por realizar serviços com garantia e venda de produtos e utilizam o sistema para gerenciar esses processos | Usuário do sistema |
 |Equipe de Desenvolvimento |Profissionais responsáveis por desenvolver o sistema|Desenvolvedores|
 |Product Owner |Profissional responsável por traduzir as ideias e interesses dos usuários para a Equipe de Desenvolvimento | Liderar o desenvolvimento do Produto|
