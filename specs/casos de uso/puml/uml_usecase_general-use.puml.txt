@@ -1,0 +1,32 @@
+@startuml
+
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Usuário\ncomum" as uc
+
+rectangle "Uso Geral" {
+    (Realizar login) as rlog
+    (Realizar cadastro) as rcad
+    (Realizar login \nvia Gmail) as rlogm
+    (Manter\nperfil) as mpf
+    (Reportar\nproblemas) as rep
+    (Alterar \nemail) as aem
+    (Alterar \nsenha) as asn
+    (Ativar \nautenticacao 2F) as a2f
+    (Ativar \nOTP) as aotp
+
+    uc -- rlog
+    uc -- mpf
+    uc -- rep
+    uc -- aem
+    uc -- asn
+    uc -- a2f
+    
+    ' extensão
+    rlog <.. rcad : <<extends>>
+    rlog <.. rlogm : <<extends>>
+    a2f <.. aotp : <<extends>>
+}
+
+@enduml

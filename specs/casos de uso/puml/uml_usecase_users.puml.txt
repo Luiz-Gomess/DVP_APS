@@ -1,0 +1,21 @@
+@startuml
+
+actor "Usuário" as u
+actor "Usuário\ncomum" as uc
+actor "Cliente" as c
+actor "Perito" as p
+actor "Administrador" as a
+actor "Gerente" as g
+actor "Funcionário" as f
+actor "Operador \nde suporte" as s
+
+u <|-- uc
+uc <|-- f
+uc <|-- c
+f <|-- g
+f <|-- p
+u <|-- a
+a <|-- g
+a <|-- s
+
+@enduml

@@ -1,0 +1,51 @@
+@startuml
+
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Administrador" as adm
+actor "Operador de\n suporte" as sup
+actor "Gerente" as ger
+actor "Perito" as per
+actor "Funcionário" as fun
+
+rectangle Administracao {
+    (Gerenciar \nusuarios) as gus
+    (Realizar \nbackup dos dados) as bkp
+    (Visualizar \nbackups) as vbkp
+    (Restaurar \nbackup) as bkpup
+    (Gerar \nrelatorios) as rel
+    (Exportar \nrelatorios) as xrel
+    (Consultar\nbase local) as cbl
+    (Abrir\nchamados) as ach
+    (Responder\nchamados) as rch
+    (Visualizar\nchamados abertos) as vch
+    (Visualizar \nhistorico de interações) as vhi
+    (Exportar \log de interações) as xlogi
+
+    adm <|-- sup
+    adm <|-- ger
+    fun <|-- ger
+    fun <|-- per
+
+    fun -- ach
+    fun -- vch
+    adm -- cbl
+    adm -- gus
+    adm -- bkp
+    adm -- bkpup
+    adm -- rel
+    adm -- vhi
+    sup -- rch
+
+    ' inclusão
+    rch ..> vch : <<include>>
+    ach ..> vch : <<include>>
+    bkpup ..> vbkp : <<include>>
+    
+    ' extensão
+    rel <.. xrel : <<extends>>
+    vhi <.. xlogi : <<extends>>
+}
+
+@enduml
